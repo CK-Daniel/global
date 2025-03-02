@@ -10,11 +10,11 @@ Version:  1.0
 ------------------------------------------------------- */
 @font-face {
     font-family: 'ElegantIcons';
-    src: url('/wp-content/themes/kueppersbusch/fonts/ElegantIcons.eot');
-    src: url('/wp-content/themes/kueppersbusch/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
-        url('/wp-content/themes/kueppersbusch/fonts/ElegantIcons.woff') format('woff'),
-        url('/wp-content/themes/kueppersbusch/fonts/ElegantIcons.ttf') format('truetype'),
-        url('/wp-content/themes/kueppersbusch/fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+    src: url('/css/fonts/ElegantIcons.eot');
+    src: url('/css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/ElegantIcons.woff') format('woff'),
+        url('/css/fonts/ElegantIcons.ttf') format('truetype'),
+        url('/css/fonts/ElegantIcons.svg#ElegantIcons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -3367,7 +3367,7 @@ span#product-menu-main-cat-mobile {
 }
 
 #years-warranty {
-    background-image: url(/wp-content/themes/kueppersbusch/img/5-years-warranty.svg);
+    background-image: url(/css/img/5-years-warranty.svg);
     width: 100px;
     height: 100px;
     background-repeat: no-repeat;
@@ -5131,7 +5131,7 @@ downlo .slick-prev:before,
 
 .add-product-compare img:hover {
     background-color: #3C3C3C !important;
-    content: url("https://www.home-kueppersbusch.com/wp-content/themes/kueppersbusch/img/add-product-compare-hover.svg");
+    content: url("https://www.home-kueppersbusch.com/css/img/add-product-compare-hover.svg");
 }
 
 .page-template-tp-comparador-productos .link-back {
@@ -6640,7 +6640,7 @@ tr.trGroup td:after {
 }
 
 #worldwide-map {
-    background-image: url(/wp-content/themes/kueppersbusch/img/presencia-internacional-dots.png) !important;
+    background-image: url(/css/img/presencia-internacional-dots.png) !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     height: 700px;
@@ -6652,7 +6652,7 @@ tr.trGroup td:after {
 
 @media (max-width: 550px) {
     #worldwide-map {
-        background-image: url(/wp-content/themes/kueppersbusch/img/presencia-internacional-dots-responsive.png) !important;
+        background-image: url(/css/img/presencia-internacional-dots-responsive.png) !important;
         width: 100%;
         background-position: bottom center !important;
         height: 500px;
@@ -7306,7 +7306,7 @@ div.asp_r .results .item.asp_r_product_cat.hovered .asp_image {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background-image: url('/wp-content/uploads/2018/10/iniciar-sesion-1.jpg');*/
+    /*background-image: url('/assets/uploads/2018/10/iniciar-sesion-1.jpg');*/
     background-size: cover;
     background-position: center;
 }
@@ -7803,7 +7803,7 @@ label.my-30 {
 .video a.play {
     width: 75px;
     height: 75px;
-    background: rgba(255, 255, 255, 0.2) url(/wp-content/themes/kueppersbusch/img/btn_play.png) no-repeat center;
+    background: rgba(255, 255, 255, 0.2) url(/css/img/btn_play.png) no-repeat center;
     display: inline-block;
     text-indent: -9999px;
     border-radius: 50%;
@@ -7818,7 +7818,7 @@ label.my-30 {
 a.close_fullscreen {
     width: 100%;
     height: 50px;
-    background: rgba(255, 255, 255, 0.2) url(/wp-content/themes/kueppersbusch/img/btn_close_black.png) no-repeat right;
+    background: rgba(255, 255, 255, 0.2) url(/css/img/btn_close_black.png) no-repeat right;
     display: none;
     text-indent: -9999px;
     background-size: 25px;
@@ -8179,7 +8179,7 @@ table.table-sub-cookies td {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.5;
-    /*background-image: url(https://www.home-kueppersbusch.com/en-ae/wp-content/themes/kueppersbusch/img/teka-logo.svg);*/
+    /*background-image: url(https://www.home-kueppersbusch.com/en-ae/css/img/teka-logo.svg);*/
     background-size: 57px 60px;
     width: 57px;
     height: 65px;
@@ -9217,7 +9217,7 @@ div#footer-widgets {
 }
 
 #product-icons ._head:after {
-    content: url(https://www.home-kueppersbusch.com/wp-content/uploads/2021/colapsable.svg);
+    content: url(https://www.home-kueppersbusch.com/assets/uploads/2021/colapsable.svg);
     right: 0px;
     position: absolute;
     display: block;
@@ -9897,7 +9897,7 @@ div.asp_w.asp_r .results .item .asp_image {
     height: 100%;
     z-index: 4;
     background-color: rgba(255, 255, 255, .3);
-    background-image: url('/wp-content/themes/kueppersbusch/img/document-file-pdf.svg');
+    background-image: url('/css/img/document-file-pdf.svg');
     background-size: 30% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -10254,7 +10254,7 @@ div#ref-ean .ref {
 .product div#product-menu:after,
 .single-product div.linea-cierre:after {
     content: "";
-    background: url("https://www.home-kueppersbusch.com/es-es/wp-content/uploads/sites/2/2020/07/linea-producto.jpg");
+    background: url("https://www.home-kueppersbusch.com/es-es/assets/uploads/sites/2/2020/07/linea-producto.jpg");
     width: 100%;
     max-width: 1200px;
     margin: 12px auto;

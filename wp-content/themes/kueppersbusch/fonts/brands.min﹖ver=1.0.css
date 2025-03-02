@@ -7,7 +7,7 @@
     font-style: normal;
     font-weight: normal;
     src: url(fa-brands-400.eot);
-    src: url(fa-brands-400%EF%B9%96.eot#iefix) format("embedded-opentype"), url(fa-brands-400.woff2) format("woff2"), url(fa-brands-400.woff) format("woff"), url(/wp-content/themes/kueppersbusch/fonts/fa-brands-400.ttf) format("truetype"), url(/wp-content/themes/kueppersbusch/fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(fa-brands-400%EF%B9%96.eot#iefix) format("embedded-opentype"), url(fa-brands-400.woff2) format("woff2"), url(fa-brands-400.woff) format("woff"), url(/css/fonts/fa-brands-400.ttf) format("truetype"), url(/css/fonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fa,

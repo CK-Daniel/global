@@ -529,7 +529,7 @@ function select2Bandera(state) {
     }
     var originalOption = state.element;
 
-    return jQuery("<span><img style='width:25px;height:25px' class='flag' src='/wp-content/themes/kuppersbusch/img/paises/" + jQuery(originalOption).data('bandera') + ".svg' alt='" + state.text + "' /><label style='font-weight: bold;    padding: 0 50px;    font-size: x-large;    line-height: 25px;    vertical-align: top;    color: darkslategray;'>" + state.text + "</label></span>");
+    return jQuery("<span><img style='width:25px;height:25px' class='flag' src='/assets/themes/kuppersbusch/img/paises/" + jQuery(originalOption).data('bandera') + ".svg' alt='" + state.text + "' /><label style='font-weight: bold;    padding: 0 50px;    font-size: x-large;    line-height: 25px;    vertical-align: top;    color: darkslategray;'>" + state.text + "</label></span>");
 }
 jQuery('#hreflangSelector').select2({
     templateResult: select2Bandera
