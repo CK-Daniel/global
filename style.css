@@ -2,7 +2,7 @@
 Theme Name: kuppersbusch
 Description: Teka - Divi Child Theme
 Author:  kph
-Author URI:  http://www.mediosyproyectos.com
+Author URI:  /local/external/www.mediosyproyectos.comindex.html
 Template: Divi
 Version:  1.0
 */
@@ -5131,7 +5131,7 @@ downlo .slick-prev:before,
 
 .add-product-compare img:hover {
     background-color: #3C3C3C !important;
-    content: url("https://www.home-kueppersbusch.com/wp-content/themes/kueppersbusch/img/add-product-compare-hover.svg");
+    content: url("/local/external/www.home-kueppersbusch.com/wp-content/themes/kueppersbusch/img/add-product-compare-hover.svg");
 }
 
 .page-template-tp-comparador-productos .link-back {
@@ -9217,7 +9217,7 @@ div#footer-widgets {
 }
 
 #product-icons ._head:after {
-    content: url(https://www.home-kueppersbusch.com/wp-content/uploads/2021/colapsable.svg);
+    content: url(/local/external/www.home-kueppersbusch.com/wp-content/uploads/2021/colapsable.svg);
     right: 0px;
     position: absolute;
     display: block;
@@ -10254,7 +10254,7 @@ div#ref-ean .ref {
 .product div#product-menu:after,
 .single-product div.linea-cierre:after {
     content: "";
-    background: url("https://www.home-kueppersbusch.com/es-es/wp-content/uploads/sites/2/2020/07/linea-producto.jpg");
+    background: url("/local/external/www.home-kueppersbusch.com/es-es/wp-content/uploads/sites/2/2020/07/linea-producto.jpg");
     width: 100%;
     max-width: 1200px;
     margin: 12px auto;

@@ -3293,8 +3293,8 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
         transform: scale(1);
     }
 } /*!
-	  * Animate.css - http://daneden.me/animate
-	  * Licensed under the MIT license - http://opensource.org/licenses/MIT
+	  * Animate.css - /local/external/daneden.me/animate
+	  * Licensed under the MIT license - /local/external/opensource.org/licenses/MIT
 	  * Copyright (c) 2015 Daniel Eden
 	 */
 @-webkit-keyframes flipInX {

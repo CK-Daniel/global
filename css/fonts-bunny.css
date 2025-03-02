@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.bunny.net/inter/files/inter-latin-300-normal.woff2) format('woff2');
+  src: url(/local/fonts/bunny/inter/files/inter-latin-300-normal.woff2) format('woff2');
 }
 
 @font-face {
@@ -12,5 +12,5 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.bunny.net/inter/files/inter-latin-600-normal.woff2) format('woff2');
+  src: url(/local/fonts/bunny/inter/files/inter-latin-600-normal.woff2) format('woff2');
 }

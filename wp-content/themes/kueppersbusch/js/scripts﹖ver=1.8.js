@@ -5,7 +5,7 @@ var loc = window.location.href;
 //}
 
 /**
- * jQuery.browser.mobile (http://detectmobilebrowser.com/)
+ * jQuery.browser.mobile (/local/external/detectmobilebrowser.com/)
  *
  * jQuery.browser.mobile will be true if the browser is a mobile device
  *
@@ -60,7 +60,7 @@ jQuery(document).ready(function() {
             window.history.go(-1);
             return false;
         } else {
-            window.location.href = "https://home-kueppersbusch.com";
+            window.location.href = "/local/external/home-kueppersbusch.comindex.html";
         }
 
     });
@@ -113,7 +113,7 @@ function loadLighboxCountries() {
 function channelsightShowButton($assetId, $reference) {
     //console.log($assetId);
     //console.log($reference);
-    jQuery.get("https://api.channelsight.com/api/1.21/feed", {
+    jQuery.get("/local/external/api.channelsight.com/api/1.21/feed", {
         key: "bb9a4b72-1afd-4bb8-a179-87d01cf49d35",
         assetId: $assetId,
         pid: $reference
@@ -204,7 +204,7 @@ jQuery(document).ready(function() {
     setTimeout(autoLoadVideo, 200);
 
 
-    //https://www.elegantthemes.com/blog/divi-resources/how-to-give-your-divi-archive-pages-a-masonry-layout
+    ///local/external/www.elegantthemes.com/blog/divi-resources/how-to-give-your-divi-archive-pages-a-masonry-layout
     leftarea = jQuery('#left-area');
     pageNavi = leftarea.find('.wp-pagenavi');
     pageNavigation = leftarea.find('.pagination');
@@ -407,7 +407,7 @@ jQuery('.recipe-slider').slick({
 /*----- PRODUCTOS -------*/
 
 //tabs products
-//https://dobsondev.com/2014/11/12/simple-jquery-tabs/
+///local/external/dobsondev.com/2014/11/12/simple-jquery-tabs/
 jQuery('.tabs-menu li:first-child').addClass('active');
 jQuery('.tab-content').hide();
 jQuery('.tab-content:first').show();
@@ -477,7 +477,7 @@ jQuery('.tabs-awards-menu li a').click(function() {
 /*
 jQuery(document).ready(function() {
     if (jQuery("#product-menu")[0]) {
-        //https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+        ///local/external/www.w3schools.com/howto/howto_js_navbar_sticky.asp
         // When the user scrolls the page, execute stickyProductMenu
         window.onscroll = function() { stickyProductMenu() };
         navbar = jQuery("#product-menu");
@@ -1399,7 +1399,7 @@ jQuery(function() {
 
 });
 
-//https://github.com/radiovisual/get-video-id/blob/master/index.js
+///local/external/github.com/radiovisual/get-video-id/blob/master/index.js
 function getYoutubeVideoID(str) {
     // shortcode
     var shortcode = /youtube:\/\/|https?:\/\/youtu\.be\/|http:\/\/y2u\.be\//g;
@@ -1479,7 +1479,7 @@ function loadReproductor(urlVideo) {
     jQuery('#player-container').addClass("show");
     jQuery('body').addClass("playeron");
 
-    jQuery("#player")[0].src = "https://www.youtube.com/embed/" + getYoutubeVideoID(urlVideo) + "?wmode=opaque&feature=oembed&rel=0&showinfo=0&iv_load_policy=3&modestbranding=0&autoplay=1";
+    jQuery("#player")[0].src = "/local/videos/youtube/embed/" + getYoutubeVideoID(urlVideo) + "?wmode=opaque&feature=oembed&rel=0&showinfo=0&iv_load_policy=3&modestbranding=0&autoplay=1";
     if (!jQuery.browser.mobile) {
         jQuery('#player-container').fullscreen();
     }
